@@ -11,7 +11,7 @@ COPY ../posters /app/app/posters
 EXPOSE 8080
 
 
-ENV POSTER_DIR=/posters
+ENV POSTER_DIR=app/posters
 
 
 CMD ["node", "server.js"]
